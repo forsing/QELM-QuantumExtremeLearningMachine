@@ -1,6 +1,6 @@
 # Quantum Extreme Learning Machine (QELM) for Lottery Prediction
 # Lottery prediction generated using a fixed quantum reservoir and a trainable linear readout.
-# # Quantum Regression Model with Qiskit
+# Quantum Regression Model with Qiskit
 
 
 import pandas as pd
@@ -22,7 +22,7 @@ algorithm_globals.random_seed = SEED
 
 
 # Use the existing dataframe
-df_raw = pd.read_csv('/Users/milan/Desktop/GHQ/data/loto7hh_4548_k5.csv')
+df_raw = pd.read_csv('/data/loto7hh_4548_k5.csv')
 # 4548 historical draws of Lotto 7/39 (Serbia)
 
 
@@ -101,7 +101,7 @@ print()
 """
 Quantum Extreme Learning Machine (QELM) Results:
    Num1  Num2  Num3  Num4  Num5  Num6  Num7
-0     5     9    15    20    24    29    36
+0     5     9     x     y     z    29    36
 """
 
 
@@ -127,7 +127,7 @@ of a linear model.
 Predicted Combination (Quantum Extreme Learning Machine)
 By leveraging a fixed quantum reservoir for high-dimensional 
 feature projection, 
-5	9	15	20	24	29	36
+5     9     x     y     z    29    36
 
 Computational Efficiency: 
 Unlike Variational Quantum Classifiers (VQC) 
@@ -159,40 +159,3 @@ This adds a high-speed, reservoir-style model
 to your evolving quantum ensemble.
 """
 
-
-
-
-"""
-VQC 
-QSVR 
-Quantum Data Re-uploading Regression 
-Multi-Qubit VQR 
-QRC 
-QNN 
-QCNN 
-QKA 
-QRNN 
-QMTR 
-QGBR 
-QBR 
-QSR 
-
-
-
-
-QDR 
-
-QGPR 
-
-QTL 
-
-QELM
-
-
-"""
-
-
-
-"""
-ok for VQC and QSVR and Quantum Data Re-uploading Regression and Multi-Qubit VQR and QRC and QNN and QCNN and QKA and QRNN and QMTR and QGBR and QBR and QSR and QDR and QGPR and QTL and QELM, give next model quantum regression with qiskit
-"""
